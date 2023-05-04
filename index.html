@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send Email Using PHPMailer</title>
+</head>
+<body>
+	<h1>Send Email Using PHPMailer</h1>
+	<form method="post" action="send_email.php">
+		<label for="sender_name">Your Name:</label>
+		<input type="text" id="sender_name" name="sender_name" required>
+		<br>
+		<label for="sender_email">Your Email:</label>
+		<input type="email" id="sender_email" name="sender_email" required>
+		<br>
+		<br>
+		<label for="subject">Subject:</label>
+		<input type="text" id="subject" name="subject" required>
+		<br>
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea>
+		<br>
+		<input type="submit" value="Send Email">
+	</form>
+</body>
+</html>
